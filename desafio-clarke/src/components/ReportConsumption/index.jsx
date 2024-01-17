@@ -9,8 +9,6 @@ const ReportConsumption = () => {
         setSupplier,
         setShowTable } = useConsumption()
 
-
-
     const handleClick = async (e) => {
         e.preventDefault()
 
@@ -27,8 +25,9 @@ const ReportConsumption = () => {
 
             setSupplier(response.data)
             setShowTable(true);
+            setConsumption('');
         } catch (error) {
-            console.log(error)
+           console.log(error)
         }
     }
 

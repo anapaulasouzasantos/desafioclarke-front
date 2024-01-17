@@ -16,8 +16,27 @@ header {
 
 .menu-bar {
     height: 25px;
+    cursor: pointer;
 }
 
 .logo {
-    height: 35px;
+    height: 25px;
+    cursor: pointer;
+}
+
+button {
+    all: unset;
+    height: 28px;
+    width: 180px;
+
+    text-align: center;
+
+    
+    background-color: #00DF7C;
+    color: rgb(255, 255, 255);
+
+    border-radius: 30px;
+
+    cursor: pointer;
+
 }

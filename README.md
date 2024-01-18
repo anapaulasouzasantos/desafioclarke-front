@@ -51,3 +51,7 @@ As seguintes ferramentas foram usadas na construção do projeto:
 
 -   **[React Router Dom](https://github.com/ReactTraining/react-router/tree/master/packages/react-router-dom)**
 -   **[Axios](https://github.com/axios/axios)**
+
+<h4 align="center"> 
+	Obs.: Devido deploy do back, ter sido feita no Render, a primeira requisição pode demorar 1min, mas as demais seguem um tempo normal.
+</h4>

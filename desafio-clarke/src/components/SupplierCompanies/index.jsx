@@ -1,5 +1,4 @@
 import './styles.css';
-// import Icon from '../../assets/icon.jpg';
 import useConsumption from '../../hooks/useConsumption';
 
 
@@ -14,19 +13,27 @@ const SupplierCompanies = () => {
                      <div className='table'>
                         <table>
                             <thead>
-                                <tr>
-                                    <th>Nome da empresa</th>
-                                    <th>Estado</th>
-                                    <th>Custo Kwh</th>
+                                <tr style={{display:"flex"}}>
+                                    <th className="cel-logo">Logo</th>
+                                    <th className='company-title'>Nome da empresa</th>
+                                    <th className='status-column' >Estado</th>
+                                    <th className='cost-column'>Custo Kwh</th>
                                 </tr>
                             </thead>
                             <tbody>
 
                                 {supplier.length && supplier.map((item) => (
                                     <tr key={item.id}>
-                                        <td>{item.nome}</td>
-                                        <td>{item.uf}</td>
-                                        <td>{item.custo_kwh}</td>
+                                        <td className="cel-logo">
+                                            <img
+                                            className="logoTabela"
+                                                src={item.logo}
+                                                alt='logo'
+                                            />
+                                        </td>
+                                        <td className='company-column text-style'>{item.nome}</td>
+                                        <td className='status-column text-style' >{item.uf}</td>
+                                        <td className='cost-column text-style' >{item.custo_kwh}</td>
                                     </tr>
                                 ))}
                             </tbody>

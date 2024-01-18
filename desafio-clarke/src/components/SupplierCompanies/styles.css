@@ -14,9 +14,9 @@
 .table {
     display: flex;
     flex-direction: column;
-
+    padding:0 10px;
     height: 450px;
-    width: 450px;
+    width: 650px;
     padding: 15px;
     border-radius: 7%;
 
@@ -26,6 +26,60 @@
     animation-iteration-count: 1;
     animation-fill-mode: forwards;
 }
+thead tr {
+    width:630px;
+    border-bottom: 1px solid rgb(110, 105, 105);
+
+
+}
+.cel-logo{
+    width:100px;
+}
+
+.company-title {
+    width: 250px;
+}
+
+.company-column {
+    width: 250px;
+}
+.status-column{
+    width: 100px;
+}
+.coast-column {
+    width:100px;
+}
+
+.text-style {
+    padding: 10px 0
+}
+tbody td {
+    display:flex;
+    height :50px;
+}
+.logoTabela {
+    max-width:60px;
+    max-height:40px;
+    object-fit: fill;
+}
+
+tbody {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    padding-top: 5px;
+    max-height:360px;
+    overflow:auto;
+  
+}
+
+tbody tr {
+    display: flex;
+    max-width:630px;
+    border-bottom: 1px solid black;
+
+}
+
 
 @keyframes appear {
     0% {
@@ -41,5 +95,18 @@
 th {
     text-align: left;
     padding: 6px 0;
-    border-bottom: 1px solid rgb(110, 105, 105);
 }
+
+tbody::-webkit-scrollbar {
+    width: 8px;
+  }
+  
+  tbody::-webkit-scrollbar-thumb {
+    background: #00DF7C;
+    border-radius: 8px;
+  }
+  
+  tbody::-webkit-scrollbar-track {
+    background: #00DF7C05;
+    border-radius: 8px;
+  }

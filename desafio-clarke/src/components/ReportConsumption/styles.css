@@ -10,10 +10,9 @@
     display: flex;
     justify-content: center;
 
-    height: 400px;
+    height: 450px;
     width: 400px;
-    border-radius: 10px;
-
+    border-radius: 7%;
     background-color: rgb(255, 255, 255);
 }
 
@@ -27,7 +26,8 @@
 }
 
 .content-consumption span {
-    font-size: 20px;
+    margin-top:40px;
+    font-size: 18px;
     font-weight: 400;
     color: rgb(0, 0, 0);
     text-align: center;
@@ -65,8 +65,8 @@
     margin-top: 26px;
 
     background-color: #00DF7C;
-    color: rgb(255, 255, 255);
-
+    color:black;
+     font-weight:bold ;
     border-radius: 30px;
 
     cursor: pointer;

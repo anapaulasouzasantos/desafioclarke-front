@@ -35,9 +35,7 @@ const ReportConsumption = () => {
         <div className='left'>
             <div className='container-consumption' >
                 <div className='content-consumption'>
-                <span>
-                    Somos um marketplace especializado em conectar a sua empresa com mais de 50 fornecedores, dando a você os melhores preços de energia do mercado!
-                </span>
+               
                 <form >
                     <h2>Informe seu cosumo em kWh:</h2>
                     <input
@@ -53,6 +51,9 @@ const ReportConsumption = () => {
                         Confirmar
                     </button>
                 </form>
+                <span className="text-description-span">
+                    Somos um marketplace especializado em conectar a sua empresa com mais de 50 fornecedores, dando a você os melhores preços de energia do mercado!
+                </span>
                 </div>
             </div>
         </div>

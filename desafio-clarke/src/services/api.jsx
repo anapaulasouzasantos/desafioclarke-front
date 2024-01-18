@@ -1,7 +1,7 @@
 import axios from 'axios';
 
-export default axios.create({
-    baseURL: 'https://api-clarke.vercel.app',
+const api = axios.create({
+    baseURL: 'https://desafioclarke-back.onrender.com',
     timeout: 10000,
     headers: {
         'Content-Type': 'application/json',
@@ -11,3 +11,5 @@ export default axios.create({
         "Access-Control-Allow-Credentials": true, // Required for cookies, authorization headers with HTTPS
     }
 })
+
+export default api;

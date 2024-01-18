@@ -1,5 +1,5 @@
 import './styles.css';
-import Icon from '../../assets/icon.jpg';
+// import Icon from '../../assets/icon.jpg';
 import useConsumption from '../../hooks/useConsumption';
 
 

@@ -2,7 +2,7 @@ import axios from 'axios';
 
 const api = axios.create({
     baseURL: 'https://desafioclarke-back.onrender.com',
-    timeout: 10000,
+    timeout: 60000,
     headers: {
         'Content-Type': 'application/json',
         "Access-Control-Allow-Origin": "*", // Required for CORS support to work

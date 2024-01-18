@@ -48,3 +48,6 @@ $ npm run dev
 As seguintes ferramentas foram usadas na construção do projeto:
 
 #### **Website**  [React](https://reactjs.org/) 
+
+-   **[React Router Dom](https://github.com/ReactTraining/react-router/tree/master/packages/react-router-dom)**
+-   **[Axios](https://github.com/axios/axios)**
